@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build --base=test1-preview/",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
