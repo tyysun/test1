@@ -1,12 +1,12 @@
 
-import { Welcome as WelcomLayout } from '../layouts/WelcomeLayout'
+import { WelcomeLayout } from '../layouts/WelcomeLayout'
 import { Welcome1 } from '../pages/Welcome1'
 import { Welcome2 } from '../pages/Welcome2'
 import { Welcome3 } from '../pages/Welcome3'
 import { Welcome4 } from '../pages/Welcome4'
 export const welcomeRoutes = {
   path: 'welcome',
-  element: <WelcomLayout></WelcomLayout>,
+  element: <WelcomeLayout></WelcomeLayout>,
   children: [
     {
       index: true,
